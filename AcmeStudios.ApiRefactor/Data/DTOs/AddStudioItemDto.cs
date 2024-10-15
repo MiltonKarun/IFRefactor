@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace AcemStudios.ApiRefactor.DTOs
+namespace AcemStudios.ApiRefactor.Data.DTOs
 {
     public class AddStudioItemDto
     {
@@ -17,7 +17,5 @@ namespace AcemStudios.ApiRefactor.DTOs
         public decimal SoldFor { get; set; } = 0M;
         public bool Eurorack { get; set; } = false;
         public int StudioItemTypeId { get; set; }
-
-        //public StudioItemImage StudioItemImage { get; set; }
     }
 }

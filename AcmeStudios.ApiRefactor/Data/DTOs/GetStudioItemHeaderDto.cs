@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AcemStudios.ApiRefactor.DTOs
+namespace AcemStudios.ApiRefactor.Data.DTOs
 {
     public class GetStudioItemHeaderDto
     {
@@ -8,8 +8,6 @@ namespace AcemStudios.ApiRefactor.DTOs
         [Required]
         public string Name { get; set; }
         [Required]
-        public string Description { get; set; }        
-
-        
+        public string Description { get; set; }
     }
 }

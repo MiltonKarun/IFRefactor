@@ -1,5 +1,6 @@
-﻿using AcemStudios.ApiRefactor.DTOs;
-using AutoMapper;
+﻿using AutoMapper;
+﻿using AcmeStudios.ApiRefactor.DAL.Entities;
+using AcemStudios.ApiRefactor.Data.DTOs;
 
 namespace AcemStudios.ApiRefactor
 {

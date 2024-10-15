@@ -1,7 +1,8 @@
 ﻿using System;
+using AcmeStudios.ApiRefactor.DAL.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace AcemStudios.ApiRefactor.DTOs
+namespace AcemStudios.ApiRefactor.Data.DTOs
 {
     public class GetStudioItemDto
     {
@@ -19,7 +20,5 @@ namespace AcemStudios.ApiRefactor.DTOs
         public bool Eurorack { get; set; }
         public int StudioItemTypeId { get; set; }
         public StudioItemType StudioItemType { get; set; }
-
-        //public StudioItemImage StudioItemImage { get; set; }
     }
 }
